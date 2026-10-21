@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_size": 512,
+  "eval_limit": 80,
+  "baseline": {
+    "n": 80,
+    "k": 1,
+    "accuracy": 0.0125,
+    "pvalue": 1.0,
+    "alarm": false,
+    "alpha": 0.5,
+    "significance": 0.05
+  },
+  "post_contamination": {
+    "n": 80,
+    "k": 3,
+    "accuracy": 0.0375,
+    "pvalue": 1.0,
+    "alarm": false,
+    "alpha": 0.5,
+    "significance": 0.05
+  },
+  "delta_accuracy": 0.024999999999999998
+}
